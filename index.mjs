@@ -11,7 +11,7 @@ import {
   workURL,
   text,
   verdict,
-} from '@cairul/plugin-kit';
+} from '@cairul/pdk';
 
 export default function azureDevOps(options) {
   const api = connection(options, {
